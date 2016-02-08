@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0EC4C9F6-D2A0-4794-A3A5-C33601FA4B41}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project_console</RootNamespace>
+    <AssemblyName>Project_console</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="example\abstractPartial\Abstract_partial_class_b.cs" />
+    <Compile Include="example\abstractPartial\Abstract_partial_class_a.cs" />
+    <Compile Include="example\inheritance\Base_access_class.cs" />
+    <Compile Include="example\inheritance\Child_class.cs" />
+    <Compile Include="example\eventDelegate\EventArgsClass.cs" />
+    <Compile Include="example\abstractClass\Example_abstract_class.cs" />
+    <Compile Include="example\abstractClass\Example_extend_from_abstract_class.cs" />
+    <Compile Include="example\genericWhereInterface\Example_generic_where.cs" />
+    <Compile Include="example\automaticProperty\Example_get_set_class.cs" />
+    <Compile Include="example\propertyIndexer\PropertyIndexerClass.cs" />
+    <Compile Include="example\usingList\Example_list_class.cs" />
+    <Compile Include="example\eventDelegate\Example_multicasting_delegate.cs" />
+    <Compile Include="example\queue\Example_queue_class.cs" />
+    <Compile Include="example\sorted\Example_sortedset_class.cs" />
+    <Compile Include="example\stack\Example_stack_class.cs" />
+    <Compile Include="example\struct\Example_struct_generic_class.cs" />
+    <Compile Include="example\swap\Example_swap_class.cs" />
+    <Compile Include="example\writeLineFormat\Example_writeln_class.cs" />
+    <Compile Include="example\sealedVirtualClass\Extend_sealed_virtual_class.cs" />
+    <Compile Include="example\hasAClass\Has_a_class.cs" />
+    <Compile Include="example\nullable\Nullable_variable_class.cs" />
+    <Compile Include="example\linq\Link_query_class.cs" />
+    <Compile Include="example\LoginImplInterface\Login_impl_interface_auth_class.cs" />
+    <Compile Include="example\inheritance\Parent_class.cs" />
+    <Compile Include="example\partial\Partial_class_a.cs" />
+    <Compile Include="example\partial\Partial_class_b.cs" />
+    <Compile Include="example\polymorphisme\Polymorfisme_child_a.cs" />
+    <Compile Include="example\polymorphisme\Polymorfisme_induk.cs" />
+    <Compile Include="example\privateProperty\Private_property_class.cs" />
+    <Compile Include="example\protectedProperty\Protected_property_class.cs" />
+    <Compile Include="example\struct\Struct_example_class.cs" />
+    <Compile Include="example\eventDelegate\TraditionalDelegateSintaxLambda.cs" />
+    <Compile Include="example\tryCatch\Try_catch_class.cs" />
+    <Compile Include="example\enum\UsingEnumClass.cs" />
+    <Compile Include="example\const\Var_constanta_class.cs" />
+    <Compile Include="example\readonly\Var_readonly_class.cs" />
+    <Compile Include="example\sealed\Example_sealed_class.cs" />
+    <Compile Include="example\sealedVirtualClass\Virtual_class.cs" />
+    <Compile Include="example\LoginImplInterface\interface\Auth_interface.cs" />
+    <Compile Include="example\LoginImplInterface\interface\Other_interface.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
