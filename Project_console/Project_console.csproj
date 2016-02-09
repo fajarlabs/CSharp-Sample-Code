@@ -47,6 +47,8 @@
   <ItemGroup>
     <Compile Include="example\abstractPartial\Abstract_partial_class_b.cs" />
     <Compile Include="example\abstractPartial\Abstract_partial_class_a.cs" />
+    <Compile Include="example\eventDelegate\ExampleDelegate.cs" />
+    <Compile Include="example\eventDelegate\UsingAnonymousAndLambdaMethod.cs" />
     <Compile Include="example\inheritance\Base_access_class.cs" />
     <Compile Include="example\inheritance\Child_class.cs" />
     <Compile Include="example\eventDelegate\EventArgsClass.cs" />
@@ -54,13 +56,18 @@
     <Compile Include="example\abstractClass\Example_extend_from_abstract_class.cs" />
     <Compile Include="example\genericWhereInterface\Example_generic_where.cs" />
     <Compile Include="example\automaticProperty\Example_get_set_class.cs" />
+    <Compile Include="example\InterfaceUsingAutomaticProperty\ExampleInterface.cs" />
+    <Compile Include="example\overloadOperator\ExampleOverloadOperator.cs" />
     <Compile Include="example\propertyIndexer\PropertyIndexerClass.cs" />
+    <Compile Include="example\StringBuilderExample\TestStringBuilder.cs" />
+    <Compile Include="example\structIndexer\ExampleStructIndexer.cs" />
+    <Compile Include="example\structPartial\ExampleStructPartial.cs" />
     <Compile Include="example\usingList\Example_list_class.cs" />
     <Compile Include="example\eventDelegate\Example_multicasting_delegate.cs" />
     <Compile Include="example\queue\Example_queue_class.cs" />
     <Compile Include="example\sorted\Example_sortedset_class.cs" />
     <Compile Include="example\stack\Example_stack_class.cs" />
-    <Compile Include="example\struct\Example_struct_generic_class.cs" />
+    <Compile Include="example\structExample\Example_struct_generic_class.cs" />
     <Compile Include="example\swap\Example_swap_class.cs" />
     <Compile Include="example\writeLineFormat\Example_writeln_class.cs" />
     <Compile Include="example\sealedVirtualClass\Extend_sealed_virtual_class.cs" />
@@ -75,16 +82,16 @@
     <Compile Include="example\polymorphisme\Polymorfisme_induk.cs" />
     <Compile Include="example\privateProperty\Private_property_class.cs" />
     <Compile Include="example\protectedProperty\Protected_property_class.cs" />
-    <Compile Include="example\struct\Struct_example_class.cs" />
+    <Compile Include="example\structExample\Struct_example_class.cs" />
     <Compile Include="example\eventDelegate\TraditionalDelegateSintaxLambda.cs" />
     <Compile Include="example\tryCatch\Try_catch_class.cs" />
-    <Compile Include="example\enum\UsingEnumClass.cs" />
-    <Compile Include="example\const\Var_constanta_class.cs" />
-    <Compile Include="example\readonly\Var_readonly_class.cs" />
-    <Compile Include="example\sealed\Example_sealed_class.cs" />
+    <Compile Include="example\enumExample\UsingEnumClass.cs" />
+    <Compile Include="example\constExample\Var_constanta_class.cs" />
+    <Compile Include="example\readonlyExample\Var_readonly_class.cs" />
+    <Compile Include="example\sealedExample\Example_sealed_class.cs" />
     <Compile Include="example\sealedVirtualClass\Virtual_class.cs" />
-    <Compile Include="example\LoginImplInterface\interface\Auth_interface.cs" />
-    <Compile Include="example\LoginImplInterface\interface\Other_interface.cs" />
+    <Compile Include="example\LoginImplInterface\interfaces\Auth_interface.cs" />
+    <Compile Include="example\LoginImplInterface\interfaces\Other_interface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Project_console.example.propertyIndexer;
+using Project_console.example.overloadOperator;
 
 namespace Project_console 
 {
@@ -11,9 +12,7 @@ namespace Project_console
     {
         static void Main(string[] args)
         {
-            PropertyIndexerClass pic = new PropertyIndexerClass();
-            pic.example();
-
+            Project_console.example.InterfaceUsingAutomaticProperty.ExampleInterface.example();
             Console.ReadLine();
         }
     }

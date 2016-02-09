@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Project_console.example.inheritance;
 
 namespace Project_console.example.stack
 {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Project_console.package._interface;
+using Project_console.example.genericWhereInterface;
 
 namespace Project_console.example.genericWhereInterface
 {
